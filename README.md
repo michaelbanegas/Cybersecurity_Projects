@@ -1,1 +1,1 @@
-# Codepath_Cybersecurity_HW
+See branches for assignments.
