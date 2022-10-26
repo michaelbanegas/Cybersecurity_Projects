@@ -39,7 +39,7 @@ Exploit: /wordpress/wp-content/themes/twentyfifteen/genericons/example.html#<img
 - 4. Figured out that you would need to make a post command via making a new post.
 - 5. Add exploit command at the end of the url http://wpdistillery/wp-admin 
 
-Exploit: "/wp-admin/customize.php?theme=<svg onload=alert(1)>"
+Exploit: /wp-admin/customize.php?theme=<does not let me paste the rest!>
 - [ ] Affected source code:
 - [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87)
 
