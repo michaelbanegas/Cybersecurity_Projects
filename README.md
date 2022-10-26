@@ -9,11 +9,18 @@ Time spent: **8** hours spent in total
 ### 1. Twenty Fifteen Theme <= 1.1 - DOM Cross-Site Scripting (XSS)
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
+  - Vulnerability types: (DOM XSS vulnerability) CVE-2015-3429
+  - Tested in version: 4.2 
+  - Fixed in version: 1.2
+- [ ] GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-7---WordPress-Pen-Testing/exploit2.gif)
 - [ ] Steps to recreate: 
+1. Looked for xss vulnerability in wpscan results
+2. Found article detailing exploit within theme page
+3. Link within wpscan redirected to an Invite article that explains exploit command
+4. Figured out that you would need to make a post command via making a new post similar to previous XSS exploit.
+5. Add exploit command at the end of the url http://wpdistillery/
+Exploit: /wordpress/wp-content/themes/twentyfifteen/genericons/example.html#<img/src/onerror=alert(123)>
+
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
@@ -26,10 +33,11 @@ Time spent: **8** hours spent in total
 - [ ] GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-7---WordPress-Pen-Testing/exploit1.gif)
 - [ ] Steps to recreate:
 - 1. Looked for xss vulnerability in wpscan results
-- 2. Found article detailing admin exploit
+- 2. Found article detailing exploit that requires admin permissions
 - 3. Link within wpscan redirected to twitter post giving exploit command
 - 4. Figured out that you would need to make a post command via making a new post.
 - 5. Add exploit command at the end of the url http://wpdistillery/wp-admin 
+Exploit: /wp-admin/customize.php?theme=<svg onload=alert(1)>
 - [ ] Affected source code:
 - [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87)
 
