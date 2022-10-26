@@ -45,16 +45,21 @@ Exploit: /wp-admin/customize.php?theme=<does not let me paste the rest!>
 - [Link 2](https://wpscan.com/vulnerability/09329e59-1871-4eb7-b6ea-fd187cd8db23)
 - [Link 3](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1564)
 
-### 3. (Required) Vulnerability Name or ID
+### 3. WordPress 3.9-5.1 - Comment Cross-Site Scripting (XSS)
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+  - Vulnerability types:(CSRF and XSS) CVE-2019-9787
+  - Tested in version: 4.2
+  - Fixed in version: 4.2.23
 - [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
+- 1. Open post that has been submitted
+- 2. Reply to post with exploit shown in gif. Publish it and you will see the line has dissapeared. Due to the WP not having a way to negate it, it is stored in databade. 
+- 3. Command is hidden due to it being processed and stored into database. This will allow a user to inject XSS code. 
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 1](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9787)
+  - [Link 2](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
+  - [Link 3](https://blog.sonarsource.com/wordpress-csrf-to-rce/?redirect=rips)
 
 ### 4. (Optional) Vulnerability Name or ID
 
