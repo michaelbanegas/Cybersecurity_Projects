@@ -42,6 +42,8 @@ Exploit: /wordpress/wp-content/themes/twentyfifteen/genericons/example.html#<img
 Exploit: /wp-admin/customize.php?theme=<does not let me paste the rest!>
 - [ ] Affected source code:
 - [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87)
+- [Link 2](https://wpscan.com/vulnerability/09329e59-1871-4eb7-b6ea-fd187cd8db23)
+- [Link 3](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1564)
 
 ### 3. (Required) Vulnerability Name or ID
 
