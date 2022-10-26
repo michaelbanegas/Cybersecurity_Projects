@@ -23,7 +23,7 @@ Time spent: **8** hours spent in total
   - Vulnerability types:
   - Tested in version:
   - Fixed in version: 
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-7---WordPress-Pen-Testing/exploit1.gif)
 - [ ] Steps to recreate:
 - Looked for xss vulnerability in wpscan results
 - Found article detailing admin exploit
