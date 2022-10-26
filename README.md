@@ -20,18 +20,18 @@ Time spent: **8** hours spent in total
 ### 2. WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+  - Vulnerability types:(XSS vulnerability) CVE-2016-1564
+  - Tested in version: 4.2
+  - Fixed in version: 4.2.5
 - [ ] GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-7---WordPress-Pen-Testing/exploit1.gif)
 - [ ] Steps to recreate:
-- Looked for xss vulnerability in wpscan results
-- Found article detailing admin exploit
-- Link within wpscan redirected to twitter post giving exploit command
-- Figured out that you would need to make a post command via making a new post.
-- Add exploit command at the end of the url http://wpdistillery/wp-admin 
+- 1. Looked for xss vulnerability in wpscan results
+- 2. Found article detailing admin exploit
+- 3. Link within wpscan redirected to twitter post giving exploit command
+- 4. Figured out that you would need to make a post command via making a new post.
+- 5. Add exploit command at the end of the url http://wpdistillery/wp-admin 
 - [ ] Affected source code:
-  - [Link 1]- (https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87)
+- [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87)
 
 ### 3. (Required) Vulnerability Name or ID
 
