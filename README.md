@@ -24,6 +24,10 @@ Exploit: /wordpress/wp-content/themes/twentyfifteen/genericons/example.html#<img
 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 2](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3429)
+  - [Link 3](https://blog.sucuri.net/2015/05/jetpack-and-twentyfifteen-vulnerable-to-dom-based-xss-millions-of-wordpress-websites-affected-millions-of-wordpress-websites-affected.html)
+  - [Link 4](https://packetstormsecurity.com/files/131802/)
+
   
 ### 2. WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
 
@@ -51,7 +55,7 @@ Exploit: /wp-admin/customize.php?theme=<does not let me paste the rest!>
   - Vulnerability types:(CSRF and XSS) CVE-2019-9787
   - Tested in version: 4.2
   - Fixed in version: 4.2.23
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough:![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-7---WordPress-Pen-Testing/exploit3.gif)
 - [ ] Steps to recreate: 
 - 1. Open post that has been submitted
 - 2. Reply to post with exploit shown in gif. Publish it and you will see the line has dissapeared. Due to the WP not having a way to negate it, it is stored in databade. 
@@ -60,28 +64,6 @@ Exploit: /wp-admin/customize.php?theme=<does not let me paste the rest!>
   - [Link 1](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9787)
   - [Link 2](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
   - [Link 3](https://blog.sonarsource.com/wordpress-csrf-to-rce/?redirect=rips)
-
-### 4. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 5. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
@@ -100,7 +82,11 @@ GIFs created with  ...
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+When setting up vagrant, I was having trouble connecting to an acceptable IP address. I needed to change my Vagrant file to host IP address 192.168.56.10 instead of 192.168.30.10.
+
+I also had trouble pinging the wpdistillery from kali linux vm. Again needed to reconfigure commands given in instructions to be tailored to new ip address listed above.
+
+Figuring out how to perform the exploits was very difficult as it was a big guessing game.
 
 ## License
 
