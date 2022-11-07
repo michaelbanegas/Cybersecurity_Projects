@@ -24,6 +24,12 @@ GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
+MHN-Admin uses the MongoDB RDBMS. The information that is exported in the JSON file record would be all the instances of attacks that were captured by our honeypot. 
+
+GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-9-Honeypot/json.gif)
+
+JSON File: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-9-Honeypot/session.json)
+
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
 ## Notes
