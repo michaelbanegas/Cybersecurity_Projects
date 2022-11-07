@@ -8,7 +8,7 @@
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
 
-I deployed the MHN server through GCP. I created the necessary virtual machines through the CLI but it was hosted on the free trial of GCP (Google Cloud Platform) I also utilized virtual box to host my kali linux machinet that was used to send attacks to the honeypot as a means to test if my honeypot was receiving data. 
+I deployed the MHN server through GCP. I created the necessary virtual machines through the CLI but it was hosted on the free trial of GCP (Google Cloud Platform) I also utilized virtual box to host my kali linux machine that was used to send attacks to the honeypot as a means to test if my honeypot was receiving data. 
 
 GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-9-Honeypot/mhn%20admin.gif)
 
@@ -16,7 +16,9 @@ GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
-<img src="dionaea-honeypot.gif">
+Dionaea is a type of honeypot that is used to trap and isoloate outsite attacks that are trying to exploit vulnerabilities/inject malware into servers. With honeypots, cybersecurity personal can then extract samples found online in their honeypots and dissect them to learn more about the ever changing world of malware as well as improve their own protection. 
+
+GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-9-Honeypot/honeypot.gif)
 
 ### Database Backup (Required) 
 
