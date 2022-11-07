@@ -28,7 +28,7 @@ MHN-Admin uses the MongoDB RDBMS. The information that is exported in the JSON f
 
 GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-9-Honeypot/json.gif)
 
-JSON File: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-9-Honeypot/session.json)
+JSON File: Was uploaded to the repository/branch of this assignment: URL --> https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-9-Honeypot/session.json
 
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
