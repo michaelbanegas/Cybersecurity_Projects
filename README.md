@@ -10,7 +10,7 @@
 
 I deployed the MHN server through GCP. I created the necessary virtual machines through the CLI but it was hosted on the free trial of GCP (Google Cloud Platform) I also utilized virtual box to host my kali linux machinet that was used to send attacks to the honeypot as a means to test if my honeypot was receiving data. 
 
-<img src="mhn-admin.gif">
+GIF Walkthrough: ![](https://github.com/michaelbanegas/Codepath_Cybersecurity_HW/blob/Project-9-Honeypot/mhn%20admin.gif)
 
 ### Dionaea Honeypot Deployment (Required)
 
