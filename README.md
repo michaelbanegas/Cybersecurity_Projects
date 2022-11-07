@@ -34,4 +34,20 @@ JSON File: Was uploaded to the repository/branch of this assignment: URL --> htt
 
 ## Notes
 
-Describe any challenges encountered while doing the assignment.
+After setting up both VMs and creating a honeyput within MHN-Admin, I was not getting any attacks in my honeypot. After some troubleshooting, there was a resource posted in the class' slack help channel that ended up solving my issue. It was discovered that I needed to note out 5 lines of code in a file within the ssh MHN-Admin repositories and reset the programs. After this was completed I then needed to rerun the wget command given in MHN within my honeypot vm. Soon after my honeypot was getting attack and I was able to get data for this assignment. 
+
+Steps Followed to fix:
+
+1. n cmd open your ssh mhn-admin
+2. Run 'sudo supervisorctl status'
+3. Verify that mnemosyne isn't working
+4. Run " sudo apt-get install nano' (Unless you already have it)
+5. You're going to then run 'cd /opt/mnemosyne/env/lib/python2.7/site-packages/gevent  (This is a directory)
+6. In the directory run 'sudo nano hub.py'
+7. Things are gonna get a little more involved 
+8. Comment out by using # the 5  lines in red from the picture
+9. Exit and press Enter followed by running 'cd'
+10. Run 'sudo supervisorctl restart all'
+11. Once completed run the first script from the start to verify everything is working
+12. Once again run the script you obtain from mhn server browser, should start with 'wget'
+13. Go to your VM in kali or docker and do the attack again and now there should be attacks
